@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ca5dbf3-42bd-46dc-9236-49ccd173cf02" name="변경" comment="2023/5/10 (수)">
-      <change afterPath="$PROJECT_DIR$/src/String/가장_짧은_문자거리.java" afterDir="false" />
+    <list default="true" id="0ca5dbf3-42bd-46dc-9236-49ccd173cf02" name="변경" comment="2023/5/11 (목)">
+      <change afterPath="$PROJECT_DIR$/src/Array/가위바위보.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/보이는_학생.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/큰_수_출력하기.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/String/문자열_압축.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/숫자만_추출.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/유효한_팰린드롬.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/중복문자제거.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/특정_문자_뒤집기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/회문_문자열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/암호.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/템플릿" beforeDir="false" afterPath="$PROJECT_DIR$/src/템플릿" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +49,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.가장_짧은_문자거리">
-    <configuration name="중복문자제거" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.중복문자제거" />
+  <component name="RunManager" selected="애플리케이션.가위바위보">
+    <configuration name="가위바위보" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.가위바위보" />
+      <module name="Inflearn_CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="암호" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.암호" />
       <module name="Inflearn_CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +76,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="회문_문자열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.회문_문자열" />
+    <configuration name="보이는_학생" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.보이는_학생" />
+      <module name="Inflearn_CodingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="문자열_압축" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.문자열_압축" />
       <module name="Inflearn_CodingTest" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="가장_짧은_문자거리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.가장_짧은_문자거리" />
+    <configuration name="큰_수_출력하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.큰_수_출력하기" />
       <module name="Inflearn_CodingTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.가장_짧은_문자거리" />
-        <item itemvalue="애플리케이션.숫자만_추출" />
-        <item itemvalue="애플리케이션.유효한_팰린드롬" />
-        <item itemvalue="애플리케이션.회문_문자열" />
-        <item itemvalue="애플리케이션.중복문자제거" />
+        <item itemvalue="애플리케이션.가위바위보" />
+        <item itemvalue="애플리케이션.보이는_학생" />
+        <item itemvalue="애플리케이션.큰_수_출력하기" />
+        <item itemvalue="애플리케이션.문자열_압축" />
+        <item itemvalue="애플리케이션.암호" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +175,8 @@
       <workItem from="1683636024554" duration="1362000" />
       <workItem from="1683723987622" duration="2950000" />
       <workItem from="1683769763885" duration="1916000" />
-      <workItem from="1683771695079" duration="8938000" />
+      <workItem from="1683771695079" duration="9012000" />
+      <workItem from="1684124438987" duration="6646000" />
     </task>
     <task id="LOCAL-00001" summary="2023/5/10 (수)">
       <created>1683726933390</created>
@@ -161,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683726933390</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023/5/11 (목)">
+      <created>1683802843953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683802843953</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +200,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2023/5/10 (수)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023/5/10 (수)" />
+    <MESSAGE value="2023/5/11 (목)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023/5/11 (목)" />
   </component>
 </project>
