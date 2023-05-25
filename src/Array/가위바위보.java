@@ -28,6 +28,6 @@ public class 가위바위보 {
         for(int i=0; i<N; i++) A[i] = Integer.parseInt(st.nextToken());
         st = new StringTokenizer(br.readLine());
         for(int i=0; i<N; i++) B[i] = Integer.parseInt(st.nextToken());
-        System.out.println(solution(N, A, B));
+        System.out.println(solution(N, A, B));        
     }
 }
